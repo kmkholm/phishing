@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advance Phishing Detector ModernBERT +Fewshot 2025</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Advance Phishing Detector ModernBERT +Fewshot 2025</h1>
+    
+    <div class="url-input">
+      <input type="text" id="url-input" placeholder="Enter URL or use current page">
+      <div class="button-row">
+        <button id="check-url-btn">Check URL</button>
+        <button id="check-current-btn">Check Current Page</button>
+      </div>
+    </div>
+    
+    <div class="loader" id="loader"></div>
+    
+    <div class="result-container" id="result-container">
+      <div class="result-header" id="result-header"></div>
+      <div class="result-details" id="result-details"></div>
+      <div class="result-confidence" id="result-confidence"></div>
+      <div class="risk-factors" id="risk-factors"></div>
+    </div>
+    
+    <div class="history-section">
+      <div class="section-header">
+        <h2>Recent Checks</h2>
+        <button id="clear-history-btn" class="small-button">Clear</button>
+      </div>
+      <div id="history-list" class="history-list"></div>
+    </div>
+    
+    <div class="settings-section">
+      <h2>Settings</h2>
+      <div class="setting">
+        <label for="server-url">Server URL:</label>
+        <input type="text" id="server-url" placeholder="http://localhost:5000">
+        <button id="save-settings-btn" class="small-button">Save</button>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p>Powered by Dr.Mohammed Tawfik 2025 | v1.0</p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
